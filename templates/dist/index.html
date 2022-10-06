@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-xl">
+    {% include 'navbar.html' %}    
+</div>
+<div class="position-relative">
+    <img class="w-100 py-5" src="{{ url_for('static', filename='img/mockupfree.webp') }}">
+    <div class="carousel-caption justify-content-center">
+    </div>    
+</div>
+<div class="container mt-5">
+    <div class="py-5 px-5">
+        <div class="d-flex align-items-center justify-content-center">
+            <p class="fs-5 text-uppercase fw-bold">
+                Une carte de visite a généralement deux objectifs principaux : la publicité et la communication. En effet, elle permet au client de garder une trace de votre conversation mais elle renseigne aussi sur la qualité de votre entreprise. Votre carte de visite doit être capable de vous décrire, vous-même, ainsi que votre activité au sein de l’entreprise. Elle doit donner à la personne concernée l’envie de vous recontacter. Elle est facilement personnalisable, vous en trouverez donc forcément une qui vous correspond. Pour faire votre choix, il existe de nombreuses solutions en ligne. Elle doit donc toujours se trouver à portée de main. Gardez-en toujours sur vous car !
+                <a href="#" role="button" class="btn btn-info text-start">More...</a>
+            </p>
+            <img class="w-50 h-50 ms-5 d-xl-flex d-none justify-content-center text-md-start rounded-3" src="{{ url_for('static', filename='img/cart-visite.jpg') }}">
+        </div>
+        
+    </div>
+    <div class="py-5 px-5">
+        <div class="d-flex align-items-center justify-content-center">
+            
+            <img class="w-50 h-50 me-5 d-xl-flex d-none justify-content-center text-md-start rounded-3" src="{{ url_for('static', filename='img/global.jpg') }}">
+            <p class="fs-5 text-uppercase fw-bold">
+                Une carte de visite a généralement deux objectifs principaux : la publicité et la communication. En effet, elle permet au client de garder une trace de votre conversation mais elle renseigne aussi sur la qualité de votre entreprise. Votre carte de visite doit être capable de vous décrire, vous-même, ainsi que votre activité au sein de l’entreprise. Elle doit donner à la personne concernée l’envie de vous recontacter. Elle est facilement personnalisable, vous en trouverez donc forcément une qui vous correspond. Pour faire votre choix, il existe de nombreuses solutions en ligne. Elle doit donc toujours se trouver à portée de main. Gardez-en toujours sur vous car !
+                <a href="#" role="button" class="btn btn-info text-start">More...</a>
+            </p>
+        </div>
+        
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="py-5 px-5">
+        <div class="d-flex align-items-center">
+            <p class="fs-5 text-uppercase fw-bold">
+                Une carte de visite a généralement deux objectifs principaux : la publicité et la communication. En effet, elle permet au client de garder une trace de votre conversation mais elle renseigne aussi sur la qualité de votre entreprise. Votre carte de visite doit être capable de vous décrire, vous-même, ainsi que votre activité au sein de l’entreprise. Elle doit donner à la personne concernée l’envie de vous recontacter. Elle est facilement personnalisable, vous en trouverez donc forcément une qui vous correspond. Pour faire votre choix, il existe de nombreuses solutions en ligne. Elle doit donc toujours se trouver à portée de main. Gardez-en toujours sur vous car !
+                <a href="#" role="button" class="btn btn-info text-start">More...</a>
+            </p>
+            <img class="w-50 h-50 ms-5 d-xl-flex d-none justify-content-center text-md-start rounded-3" src="{{ url_for('static', filename='img/cardfull.jpg') }}">
+        </div>
+        
+    </div>
+    <div class="py-5 px-5">
+        <div class="d-flex align-items-center">
+            <img class="w-50 h-50 me-5 d-xl-flex d-none justify-content-center text-md-start rounded-3" src="{{ url_for('static', filename='img/bagpaber.jpg') }}">
+            <p class="fs-5 text-uppercase fw-bold">
+                Une carte de visite a généralement deux objectifs principaux : la publicité et la communication. En effet, elle permet au client de garder une trace de votre conversation mais elle renseigne aussi sur la qualité de votre entreprise. Votre carte de visite doit être capable de vous décrire, vous-même, ainsi que votre activité au sein de l’entreprise. Elle doit donner à la personne concernée l’envie de vous recontacter. Elle est facilement personnalisable, vous en trouverez donc forcément une qui vous correspond. Pour faire votre choix, il existe de nombreuses solutions en ligne. Elle doit donc toujours se trouver à portée de main. Gardez-en toujours sur vous car !
+                <a href="#" role="button" class="btn btn-info text-start">More...</a>
+            </p>
+        </div>
+        
+    </div>
+</div>
+{% include 'footer.html' %}
+{% endblock %}
